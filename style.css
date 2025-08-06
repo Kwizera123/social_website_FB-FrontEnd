@@ -207,3 +207,60 @@ nav{
   top: unset;
   bottom: 5px;
 }
+.story-gallery{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.story{
+  flex-basis: 18%;
+  padding-top: 32%;
+  position: relative;
+  background-size: cover;
+  border-radius: 10px;
+}
+.story img{
+  position: absolute;
+  width: 45px;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  border: 5px solid #1876f2;
+}
+.story p{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.story1{
+   background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/status-1.png);
+  background-position: center;
+}
+
+.story2{
+   background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/status-2.png);
+  background-position: center;
+}
+.story3{
+   background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/status-3.png);
+  background-position: center;
+}
+.story4{
+   background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/status-4.png);
+  background-position: center;
+}
+.story5{
+   background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/status-5.png);
+  background-position: center;
+}
+.story.story1 img{
+  top: unset;
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
+  border: 0;
+  width: 35px;
+}
